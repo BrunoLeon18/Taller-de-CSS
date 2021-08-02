@@ -123,12 +123,12 @@
           <img src="./image/image (4).png" alt="" />
         </figure>
       </section>
-      <section class="contacto">
+      <form class="contacto">
         <h2>Contacto</h2>
-        <input class="nombre" type="text" id="name" placeholder="Nombre" />
-        <input class="apellido" type="text" id="lastname" placeholder="Apellido" />
-        <input class="telefono" type="number" id="phone" placeholder="Telefono" />
-        <input class="email" type="email" id="email" placeholder="Email" />
+        <input class="nombre" type="text" id="name" placeholder="Nombre" required/>
+        <input class="apellido" type="text" id="lastname" placeholder="Apellido" required/>
+        <input class="telefono" type="number" id="phone" placeholder="Telefono" required/>
+        <input class="email" type="email" id="email" placeholder="Email" required/>
         <textarea
           name="Comentarios"
           id="comments"
@@ -137,7 +137,7 @@
           placeholder="Descripcion"
         ></textarea>
         <button type="submit">ENVIAR</button>
-      </section>
+      </form>
     </div>
   </body>
 </html>
