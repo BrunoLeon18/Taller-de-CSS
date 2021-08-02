@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: 64px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    line-height: 75px;
+    color: #fff;
+    padding-top: 36px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 18px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.caja{
+    max-width: 960px;
+    margin: auto;
+}
+
+/* primera seccion*/
+
+.imagen{
+    width: 960px;
+    height: 525px;
+    background: url(../image/image.png);
+}
+
+.imagen .subtitulo{
+    font-size: 36px;
+    background: rgba(114, 153, 254, 0.5);
+    color: white;
+    margin: 0 0 0 52px;
+    position: absolute;
+    top: 270px;
+    width: 365px;
+    height: 117px;
+}
+
+.imagen .subtitulo > h2{
+    padding: 10px;
+}
+
+/* My Skills */
+
+.skill{
+    width: 960px;
+    height: 424px;
+    background-color: #7299FE;
+}
+
+.skill > h2{
+    text-align: center;
+    padding-top: 27px;
+    color: white;
+}
+
+.skill h3{
+    margin: 5px;
+}
+
+.master{
+    display: flex;
+    
+}
+
+.grupo1{
+    margin: 30px 15px 20px 90px;
+}
+
+.grupo1 .grupo{
+    margin: 15px 0;
+}
+
+.grupo2{
+    margin: 30px 15px 20px 30px;
+
+}
+
+.grupo2 .grupo{
+    margin: 15px 0;
+}
+.rect1{
+    width: 364px;
+    height: 17px;
+    background-color: #fff;
+}
+
+.rect2{
+    width: 237px;
+    height: 17px;
+    background-color: #000;
+}
+
+/* servicios*/
+
+.servicios{
+    width: 960px;
+    height: 424px;
+    background-color: #FB7171;
+}
+.servicios > h2{
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 10px;
+}
+
+.servicios div{
+    font-size: 26px;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 40px 0px 40px 50px ;
+    margin-left: 50px;
+}
+
+/* PORTAFOLIO */
+
+.portafolio{
+    width: 960px;
+    height: 424px;
+    background-color: #FFD233;
+}
+
+.portafolio > h2{
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 30px;
+}
+
+.portafolio figure{
+   margin: 0 200px 0 170px;
+}
+
+.portafolio figure div{
+    float: left;
+    margin: 10px 0 0 25px;
+    width: 120px;
+}
+
+/* CLIENTES */
+
+.cliente{
+    width: 960px;
+    height: 258px;
+    background-color: #3F4E62;
+}
+
+.cliente > h2{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.cliente figure{
+    margin: 10px 0 0 70px;
+}
+
+.cliente figure img{
+    margin: 0 7px;
+}
+
+/* CONTACTO */
+
+.contacto{
+    width: 960px;
+    height: 578px;
+    background-color: #16A085;
+}
+
+.contacto > h2{
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+
+.contacto .nombre{
+    padding: 20px;
+    margin: 0 20px 10px 100px;
+    width: 363px;
+    border-radius: 5px;
+}
+.contacto .apellido{
+    padding: 20px;
+    margin: 0 20px 20px 21px;
+    width: 363px;
+    border-radius: 5px;
+}
+.contacto .telefono{
+    padding: 20px;
+    width: 363px;
+    margin: 10px 21px 36px 100px;
+    border-radius: 5px;
+}
+
+.contacto .email{
+    padding: 20px;
+    margin: 0 20px 33px 21px;
+    width: 363px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 770px;
+    margin: 0 0 0 100px;
+    padding: 20px 0 0 20px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 20px 50px;
+    margin: 10px 0 0 420px;
+    background-color: #233451;
+    color: #fff;
+    font-size: roboto;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+

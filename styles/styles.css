@@ -1,0 +1,17 @@
+table{
+    border: 1px solid rgb(2, 2, 250);
+    outline: none;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+td, th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
